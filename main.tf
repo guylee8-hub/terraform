@@ -6,6 +6,6 @@ resource "aws_instance" "lab" {
   instance_type = "t2.micro"
 
 tags = { 
-Name = "terraform-lab"
+Name = "terraform-labtest2"
 }
 }
